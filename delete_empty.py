@@ -1,3 +1,4 @@
+# Code to remove empty spaces in csv files
 import pandas as pd
 
 def delete_empty_rows(file_path, new_file_path):
