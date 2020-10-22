@@ -9,7 +9,7 @@ import re
 import glob
 
 # %%
-data = pd.read_csv('/content/Combined_rssi_corrected_proper_sinr_row_fixed (1).csv',delimiter=',')# The large CSV for the training location
+data = pd.read_csv('Combined_rssi_corrected_proper_sinr_row_fixed.csv',delimiter=',')# The large CSV for the training location
 
 df2=data.loc[data['node_type']==1]
 del df2['node_type']
