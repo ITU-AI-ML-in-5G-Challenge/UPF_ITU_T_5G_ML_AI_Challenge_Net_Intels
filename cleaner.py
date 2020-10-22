@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 import re
 
-pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Final_converted_test_data\\All_combined_proper_clean_final\\'
+pathname='' # path to all the csv files
 for file in glob.glob(pathname+'*.csv'):
 	df=pd.read_csv(file)
 	file_name=re.sub('.csv','',file)
