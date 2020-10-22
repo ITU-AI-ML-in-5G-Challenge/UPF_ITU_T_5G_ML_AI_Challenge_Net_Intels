@@ -1,1 +1,0 @@
-This folder contains both the original jupyter notebook as well as the converted python code for the ANN method in this challenge.
