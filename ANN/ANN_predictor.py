@@ -9,17 +9,10 @@ import re
 import glob
 
 # %%
-data = pd.read_csv('/content/Combined_rssi_corrected_proper_sinr_row_fixed (1).csv',delimiter=',')
+data = pd.read_csv('/content/Combined_rssi_corrected_proper_sinr_row_fixed (1).csv',delimiter=',')# The large CSV for the training location
 
 df2=data.loc[data['node_type']==1]
 del df2['node_type']
-
-#data=data.loc[data[0]==0]
-#data.replace([np.inf,-np.inf],np.nan)
-#data.dropna(inplace=True)
-#data = data.drop("node_code", axis=1)
-#pd.to_numeric(data.node_type)
-#data['node_type']=pd.get_dummies(data['node_type'])
 X = df2.iloc[:,:-1].values
 y = df2.iloc[:,7].values
 
@@ -76,10 +69,12 @@ print(pred_train)
 
 from keras.models import load_model
 
+#### The below code is used to save the model as HDF5 file so that this model can be used again and there will be no need to train all over again. ####
 #model.save('Final_ANN_ITU_predictor_500_epochs.h5')  # creates a HDF5 file 'my_model.h5'
 #del model  # deletes the existing model
 #model = load_model('Final_ANN_ITU_predictor.h5')
 #model = load_model('/content/drive/My Drive/ITU/Final/Final_ANN_ITU_predictor.h5')
+################################################################################################################
 
 
 
