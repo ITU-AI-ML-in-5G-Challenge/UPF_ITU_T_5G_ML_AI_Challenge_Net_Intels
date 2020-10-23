@@ -1,3 +1,4 @@
+# This code is to combine all the CSV files in a given directory
 import pandas as pd
 import os
 import glob
