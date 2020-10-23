@@ -1,3 +1,4 @@
+#This code is used to append the columns from SINR and RSSI csv files to the input csv files
 import csv
 import os
 import pandas as pd
