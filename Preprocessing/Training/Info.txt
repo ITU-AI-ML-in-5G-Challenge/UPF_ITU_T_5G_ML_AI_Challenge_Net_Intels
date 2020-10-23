@@ -1,0 +1,1 @@
+This folder contains information about the preprocessing done to get the training data.
