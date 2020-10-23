@@ -3,24 +3,6 @@ import os
 import pandas as pd
 import glob
 import natsort
-'''
-csv_files=glob.glob("rssi_*new*.csv")
-txt_files=glob.glob("input_*.csv")
-txt_files=natsort.natsorted(txt_files)
-
-for (c_file,t_file) in zip(csv_files,txt_files):
-    with open(t_file) as f:
-        t_list=[]
-        for line in f:
-            #print(line)
-            t_list.append(float(line))
-    print(t_list)
-
-    df=pd.read_csv(c_file)
-    df['RSSI']=t_list
-    df.to_csv(c_file,index=False)
- '''   
-
 import pandas as pd
 import glob
 import re
