@@ -1,4 +1,4 @@
-# Thic code is to remove empty rows in a given CSV
+# This code is to remove empty rows in a given CSV
 import pandas as pd
 
 def delete_empty_rows(file_path, new_file_path):
