@@ -4,7 +4,7 @@ import re
 import natsort
 
 
-pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Test\\test_2\\'
+pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Test\\test_2\\' #Give the path to the files here
 for f1,f2,f3 in zip(natsort.natsorted(glob.glob(pathname+'rssi_*new.csv')),natsort.natsorted(glob.glob(pathname+'input_*.csv')),natsort.natsorted(glob.glob(pathname+'sinr_*new.csv'))):
 	df1=pd.read_csv(f1)
 	df2=pd.read_csv(f2)
