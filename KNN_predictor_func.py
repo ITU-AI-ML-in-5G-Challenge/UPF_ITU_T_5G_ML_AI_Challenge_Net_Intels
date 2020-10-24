@@ -5,6 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
 import re
 import glob
+import math
+from sklearn.metrics import mean_squared_error,mean_absolute_error
 
 df=pd.read_csv('Combined_rssi_corrected_proper_sinr_row_fixed.csv')
 df2=df.loc[df['node_type']==1]
@@ -15,6 +17,12 @@ sc = StandardScaler()
 X = sc.fit_transform(X)
 reg = KNeighborsRegressor(n_neighbors=10)
 reg.fit(X, y) # Training done here
+pred_regr_tr=reg.predict(X)
+mse_regr = math.sqrt(mean_squared_error(y,pred_regr_tr))
+mae_regr = (mean_absolute_error(y,pred_regr_tr))
+print("Root Mean Squared error for training is ",mse_regr)
+print("Mean Absolute error for training is ",mae_regr)
+
 
 
 def predictor(filename):
