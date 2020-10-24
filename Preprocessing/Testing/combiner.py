@@ -1,3 +1,4 @@
+# Code to combine RSSI and SINR CSV files to their respective input files
 import pandas as pd
 import glob
 import re
