@@ -1,3 +1,4 @@
+#This code is remove all the columns except the required features
 import pandas as pd
 import glob
 import re
