@@ -1,3 +1,4 @@
+#This code is used to remove the first extra index column
 import pandas as pd
 import glob
 
