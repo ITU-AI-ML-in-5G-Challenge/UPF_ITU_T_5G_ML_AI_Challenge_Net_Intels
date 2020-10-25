@@ -74,7 +74,7 @@ def predictor(filename):
 	final_pred_df_transpose=final_pred_df.T
 	final_pred_df_transpose.to_csv(file+'_throughput.csv',index=False,header=False)#Change the name of the file here to suit the output
 
-pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Final_converted_test_data\\RandomForestFinal\\Random_forest_func\\'
+pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Final_converted_test_data\\RandomForestFinal\\Random_forest_func\\' # Path to all test files
 
 for f in glob.glob(pathname+'*new.csv'):
 	predictor(f)
