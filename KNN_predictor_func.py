@@ -75,7 +75,7 @@ def predictor(filename):
 	final_pred_df_transpose=final_pred_df.T
 	final_pred_df_transpose.to_csv(file+'_KNN_throughput.csv',index=False,header=False)#Change the name of the file here to suit the output
 
-pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Final_converted_test_data\\KNNFinal\\'
+pathname='C:\\Users\\venka\\Desktop\\5g_ITU\\Final_test_convertor\\Final_converted_test_data\\KNNFinal\\' # Path to all test files
 
 for f in glob.glob(pathname+'*new.csv'):
 	predictor(f)
