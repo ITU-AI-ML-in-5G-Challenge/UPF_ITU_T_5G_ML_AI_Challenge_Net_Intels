@@ -13,8 +13,10 @@ Contains Python scripts, Jupyter & Google Colab notebooks, text files, CSV files
 Approaches used for solving the problem and corresponding model accuracy:
 1.K nearest neigbhors method
   RMSE=6.88 and MAE=4.67
+  
 2.Random forest regressor
   RMSE=6.91 and MAE=4.88
+  
 3.Artificial Neural Network
   RMSE=3.1 and MAE=2.8
   
