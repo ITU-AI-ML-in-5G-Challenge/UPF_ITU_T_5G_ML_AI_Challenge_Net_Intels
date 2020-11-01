@@ -8,9 +8,11 @@ To address the Channel Bonding problem in WLANs, we propose the application of M
 Performance prediction in WLANs can be used to optimize the planning phase of a given deployment or improve the performance during the operation of a WLAN.
 
 Repository Description:
+
 Contains Python scripts, Jupyter & Google Colab notebooks, text files, CSV files which are used in finding the solution for given problem. The results obtained in the course of challenge are submitted to ITU.
 
 Approaches used for solving the problem and corresponding model accuracy:
+
 1.K nearest neigbhors method
   RMSE=6.88 and MAE=4.67
   
