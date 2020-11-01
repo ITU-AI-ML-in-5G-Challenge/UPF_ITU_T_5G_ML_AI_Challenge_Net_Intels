@@ -1,1 +1,3 @@
 There are two folders : Training and Testing
+The training folder contains all the code for preparing the preprocessed data set(one large CSV) for training purpose and the testing folder contains all the code for preparing preprocessed dataset (multiple CSVs) for testing purpose. 
+Please follow the documentation to use the programs in the right order.
