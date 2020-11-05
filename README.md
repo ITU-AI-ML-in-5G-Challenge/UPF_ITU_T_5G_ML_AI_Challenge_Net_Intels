@@ -8,7 +8,7 @@ Team Members:
 - M Rajasekar
 - Megha G Kulkarni
 - K Venkat Ramnan
-- Vishalsagar U
+- Vishalsagar Udupi
 
 Description:
 
