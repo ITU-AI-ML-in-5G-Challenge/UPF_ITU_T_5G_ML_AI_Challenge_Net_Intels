@@ -4,6 +4,12 @@ Problem Statement: Improving the capacity of IEEE 802.11 WLANs using Machine Lea
 
 Team : Net Intels , PES University , Bangalore, India
 
+Team Members:
+- M Rajasekar
+- Megha G Kulkarni
+- K Venkat Ramnan
+- Vishalsagar U
+
 Description:
 
 To address the Channel Bonding problem in WLANs, we propose the application of Machine Learning (e.g., Deep Learning) to predict the performance of an OBSS where different combinations of channel schemes are allocated to the different BSSs. The main purpose is, therefore, to predict the throughput that a BSS would obtain according to the data extracted from simulated deployments generated based on different random parameters, including channel allocation, location of nodes, and number of STAs per BSS.
