@@ -12,6 +12,9 @@ Performance prediction in WLANs can be used to optimize the planning phase of a 
 Repository Description:
 
 Contains Python scripts, Jupyter & Google Colab notebooks, text files, CSV files which are used in finding the solution for given problem. The results obtained in the course of challenge are submitted to ITU.
+The Documentation Folder contains PDF for the documentation of this project.
+The ANN Folder Contains all the data related to the Artificial Neural Network Approach
+The Prepreocessing Folder contains two subfolders : Training and Testing. Each of these folders contain the respective codes.
 
 Approaches used for solving the problem and corresponding model accuracy for training data:
 
@@ -19,11 +22,11 @@ Approaches used for solving the problem and corresponding model accuracy for tra
 
   RMSE=6.88 and MAE=4.67
   
-2.Random forest regressor : implementation of ensemble technique with use of multiple decesion trees and bagging
+2.Random forest regressor : implementation of ensemble technique with use of multiple decesion trees and bagging.
 
   RMSE=6.91 and MAE=4.88
   
-3.Artificial Neural Network : implementation of neural network in order to learn and reduce error during prediction (regression)
+3.Artificial Neural Network : implementation of neural network in order to learn and reduce error during prediction (regression).
 
  RMSE=3.1 and MAE=2.8
 
