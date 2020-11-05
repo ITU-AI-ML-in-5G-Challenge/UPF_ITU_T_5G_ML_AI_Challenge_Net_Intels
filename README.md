@@ -20,7 +20,7 @@ Repository Description:
 Contains Python scripts, Jupyter & Google Colab notebooks, text files, CSV files which are used in finding the solution for given problem. The results obtained in the course of challenge are submitted to ITU.
 The Documentation Folder contains PDF for the documentation of this project.
 The ANN Folder Contains all the data related to the Artificial Neural Network Approach
-The Prepreocessing Folder contains two subfolders : Training and Testing. Each of these folders contain the respective codes.
+The Preprocessing Folder contains two subfolders : Training and Testing. Each of these folders contain the respective codes.
 
 Approaches used for solving the problem and corresponding model accuracy for training data:
 
