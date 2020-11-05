@@ -23,8 +23,13 @@ Approaches used for solving the problem and corresponding model accuracy for tra
   
 3.Artificial Neural Network : implementation of neural network in order to learn and reduce error during prediction (regression)
 
-The Neural Network Architecture designed is shown in the fig.1
+ RMSE=3.1 and MAE=2.8
 
-  RMSE=3.1 and MAE=2.8
+The Neural Network Architecture designed is shown in the figure below:
+
+![](Neural_Network_Architecture.jpg)
+
+
+ 
   
 
